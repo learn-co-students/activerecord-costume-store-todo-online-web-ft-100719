@@ -11,18 +11,6 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
     end
 end
 
-# sql = <<-SQL
-# CREATE TABLE IF NOT EXISTS costumes (
-#     id INTEGER PRIMARY KEY,
-#     name TEXT,
-#     price INTEGER,
-#     size TEXT,
-#     image_url TEXT,
-#     created_at DATETIME,
-#     updated_at DATETIME
-# )
-# SQL
-
 
 
 # Create a class and inherit from ActiveRecord::Migration
